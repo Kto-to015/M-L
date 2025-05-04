@@ -1,0 +1,104 @@
+.NameVideoInHead {
+    padding: 0.5em 0 0 1em;
+    font-weight: 600;
+    font-size: 16pt;
+}
+.NavigationAndDiscription {
+/*    border: 1px solid #ffffff;*/
+    width: 51em;
+    height: 31.9em;
+}
+.PrewviewAndButtons {
+
+}
+.VideoPreview {
+    width: 51em;
+    border-radius: 1em;
+}
+.AsideDiscription {
+/*    border: 1px solid #ffffff;*/
+    width: 51em;
+    height: 28.8em;
+    background-color: #0f0f0fe2;
+    border-radius: 1em;
+}
+.WhereToWatch {
+    margin: 1em 0 -1.2em 8.3em;
+}
+.YouVk {
+    display: flex;
+    gap: 8em;
+/*    padding: 0.5em 0 0 0;*/
+}
+.LinkToYoutube, .LinkToVKvideo {
+    display: flex;
+}
+.LinkToYoutube {
+/*    border: 1px solid #ffffff;*/
+    padding: 1em 5em 1em 5em;
+}
+.LinkToVKvideo {
+/*    border: 1px solid #ffffff;*/
+    padding: 1em 5em 1em 5em;
+}
+.youtube {
+    width: 48px;
+    height: 35px;
+    margin: 0 0.5em 0 0;
+    transition: 500ms;
+}
+.vkvideo {
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5em 0 0;
+    transition: 500ms;
+}
+.youtube:hover {
+    border-radius: 0.7em;
+    box-shadow: 0 0 20px 20px #ff0000c0;
+    transition: 500ms;
+}
+.vkvideo:hover {
+    border-radius: 0.7em;
+    box-shadow: 0 0 20px 20px #0077ffc0;
+    transition: 500ms;
+}
+
+.VideoName {
+    padding: 1em 0 0 1em;
+    color: #ffffff;
+    font-size: 18pt;
+    font-weight: 600;
+}
+.Discription {
+    margin: 2em 0 0 0;
+    overflow-y: scroll;
+/*    border: 1px solid #ffffff;*/
+    width: 51em;
+    height: 19.3em;
+    background-color: #151515ff;
+    border-radius: 1em;
+}
+.dicriptionText {
+    color: #ffffff;
+    padding: 0.5em;
+    font-size: 16pt;
+}
+.dicriptionText a {
+    color: #b6ff00;
+}
+.dicriptionText a:hover {
+    color: #ff0000c0;
+}
+
+
+
+
+
+.MainContent {
+    /*    justify-content: space-between;*/
+    margin: 8em 0 0 8em;
+    /*width: 89%;*/
+    height: 55em;
+    /*border: 1px solid black;*/ /*Delete this border later*/
+}
